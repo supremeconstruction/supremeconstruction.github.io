@@ -1,17 +1,11 @@
-h1{
-  
-  position: fixed;
-    left: 25%;
-    top: 0;
- font-size:250%;
-    background: white;
-  font-family: "Impact", Georgia, Bold;
-  color: brown;
-  text-align:center;
-  border-radius:10px;
 
-    
+
+img{ 
+position: relative;
+  border-radius:10px;
 }
+
+
 
 h2{
   font-family: "Arial", Georgia, Bold;
@@ -22,7 +16,7 @@ h6{
    position: fixed;
 }
 body{
-  background:gray;
+  background: lightgray;
 }
 
 ul {
@@ -31,10 +25,10 @@ ul {
   width:850px;
     padding: 10;
     overflow: hidden;
-    background-color: Black;
+    background-color: lightgray;
   font-family: "Arial Black", Georgia, Bold;
   font-size:130%;
-  border-radius:150px;
+  border-radius:10px;
   
 }
 
@@ -45,17 +39,23 @@ li {
 
 li a {
     display: block;
-    color: white;
+  font-family: "Capitals", Georgia, Bold;
+    color: indigo;
     text-align: center;
     padding: 20px 16px;
    margin: auto;
-  border-radius:150px;
+  border-radius:10px;
+  font-size:90%;
 }
 
 
 li a:hover {
-    background-color: lightgray;
+    background-color: gray;
 }
 .active {
     background-color: black;
+}
+
+h9{
+  font-size:200%;
 }
