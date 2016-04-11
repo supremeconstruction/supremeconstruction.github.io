@@ -22,7 +22,7 @@ h6{
    position: fixed;
 }
 body{
-  background:lightgray;
+  background:#C0C0;
 }
 
 ul {
@@ -50,8 +50,8 @@ li a {
     padding: 20px 16px;
    margin: auto;
   border-radius:10px;
-  font-family: "Capitals", Georgia, Bold;
-  font-size:90%;
+  font-family: "Futura", Georgia, Bold;
+  font-size:120%;
 }
 
 
@@ -73,7 +73,4 @@ img{
 position: relative;
   border-radius:10px;
 }
-div{
-  background-color: gray;
-    padding: 1%;
-}
+
