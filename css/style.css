@@ -1,61 +1,78 @@
-
-
-img{ 
-position: relative;
-  border-radius:10px;
+p9{
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size:200%;
+  
+  text-align: center;
 }
 
+h7{
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size:180%;
+   
+}
 
+img{
+  border-radius:7px;
+}
 
 h2{
-  font-family: "Arial", Georgia, Bold;
+   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size:120%;
 }
 
 
-h6{
-   position: fixed;
-}
 body{
-  background: lightgray;
+  background: #C0C0;
 }
 
 ul {
     list-style-type: none;
-    margin: 0 auto;
-  width:850px;
-    padding: 10;
+    margin: 0;
+  padding: 0px 5px;
     overflow: hidden;
-    background-color: lightgray;
-  font-family: "Arial Black", Georgia, Bold;
-  font-size:130%;
-  border-radius:10px;
+    background-color: lavender;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  width: 525px;
+   border-radius:7px;
   
 }
 
 li {
     float: left;
-  margin: auto;
+   border-right:1px solid #bbb;
+  
 }
 
 li a {
     display: block;
-  font-family: "Capitals", Georgia, Bold;
-    color: indigo;
+  color: indigo;
     text-align: center;
-    padding: 20px 16px;
-   margin: auto;
-  border-radius:10px;
-  font-size:90%;
+    padding: 75px 10px;
+ text-decoration: none;
+  font-size:110%;
+ 
 }
 
 
 li a:hover {
-    background-color: gray;
-}
-.active {
-    background-color: black;
+    background-color: ghostwhite;
 }
 
-h9{
-  font-size:200%;
+
+li:last-child {
+    border-right: none;
+}
+
+
+
+
+div{
+  text-align: center;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size:90%;
+}
+
+p8{
+  color:indigo;
+   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
