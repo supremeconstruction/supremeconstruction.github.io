@@ -1,4 +1,6 @@
-
+img{
+  border-radius:7px;
+}
 
 h2{
    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
@@ -15,13 +17,12 @@ body{
 
 ul {
      list-style-type: none;
-    margin: 0;
-  padding: 0px 5px;
-    overflow: hidden;
-    background-color: lavender;
+    margin: 0 auto;
+  padding: 0px 3px;
+    overflow: inherit;
 font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-  width: 678px;
-   border-radius:7px;
+  width: 100%;
+   
   
   
 }
@@ -29,15 +30,17 @@ font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 li {
     float: left;
    border-right:1px solid #bbb;
+  width:110px;
+  background-color:lavender;
 }
 
 li a {
       display: block;
   color: indigo;
     text-align: center;
-    padding: 75px 10px;
+    padding: 75px 1px;
  text-decoration: none;
-  font-size:150%;
+  font-size:105%;
 }
 
 
