@@ -54,14 +54,6 @@ h7{
   font-size:180%;
 }
 
-div{
-  
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-    
-    ;
-}
 
 img{ 
 position: relative;
@@ -72,8 +64,8 @@ p3{
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
-div1{
+div{
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size:90%;
-  text-align:center;
+text-align:center;
 }
